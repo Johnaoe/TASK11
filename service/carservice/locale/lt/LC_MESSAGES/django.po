@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-25 11:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+#: .\carservice\admin.py:32 .\carservice\admin.py:33
+msgid "Carservice Administration"
+msgstr "Autoserviso Admin"
+
+#: .\carservice\models.py:15
+msgid "Brand"
+msgstr "Markė"
+
+#: .\carservice\models.py:16
+msgid "Model"
+msgstr "Modelis"
+
+#: .\carservice\models.py:20
+msgid "Car Brand"
+msgstr "Mašinos Markė"
+
+#: .\carservice\models.py:21
+msgid "Car Brands"
+msgstr "Mašinos Markės"
+
+#: .\carservice\models.py:28
+msgid "Name"
+msgstr "Vardas"
+
+#: .\carservice\models.py:29
+msgid "Surname"
+msgstr "Pavardė"
+
+#: .\carservice\models.py:33
+msgid "Owner"
+msgstr "Savininkas"
+
+#: .\carservice\models.py:34
+msgid "Owners"
+msgstr "Savininkai"
+
+#: .\carservice\models.py:40
+msgid "Car brand"
+msgstr "Mašinos markė"
+
+#: .\carservice\models.py:43
+msgid "VIN code"
+msgstr "VIN kodas"
+
+#: .\carservice\models.py:44
+msgid "Number Plate"
+msgstr "Automobilio Numeriai"
+
+#: .\carservice\models.py:48 .\carservice\models.py:68
+msgid "Car"
+msgstr "Automobilis"
+
+#: .\carservice\models.py:49
+msgid "Cars"
+msgstr "Automobiliai"
+
+#: .\carservice\models.py:55
+msgid "Job Name"
+msgstr "Darbo Pavadinimas"
+
+#: .\carservice\models.py:56 .\carservice\models.py:101
+msgid "Price"
+msgstr "Kaina"
+
+#: .\carservice\models.py:60 .\carservice\models.py:98
+msgid "Service"
+msgstr "Paslauga"
+
+#: .\carservice\models.py:61
+msgid "Services"
+msgstr "Paslaugos"
+
+#: .\carservice\models.py:67
+msgid "Created at"
+msgstr "Sukurimo data"
+
+#: .\carservice\models.py:69
+msgid "price"
+msgstr "Kaina"
+
+#: .\carservice\models.py:70
+msgid "Issue"
+msgstr "Problema"
+
+#: .\carservice\models.py:71
+msgid "Due back"
+msgstr "Gražinimo data"
+
+#: .\carservice\models.py:74
+msgid "New"
+msgstr "Nauja"
+
+#: .\carservice\models.py:75
+msgid "Accepted"
+msgstr "Priimta"
+
+#: .\carservice\models.py:76
+msgid "Under repair"
+msgstr "Tvarkoma"
+
+#: .\carservice\models.py:77
+msgid "Done"
+msgstr "Atlikta"
+
+#: .\carservice\models.py:78
+msgid "Returned"
+msgstr "Gražinta"
+
+#: .\carservice\models.py:81
+msgid "Status"
+msgstr "Būsena"
+
+#: .\carservice\models.py:85
+msgid "Repair order"
+msgstr "Remonto užsakymas"
+
+#: .\carservice\models.py:86
+msgid "Repair orders"
+msgstr "Remonto užsakymai"
+
+#: .\carservice\models.py:99
+msgid "Repair Order"
+msgstr "Remonto užsakymas"
+
+#: .\carservice\models.py:100
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: .\carservice\models.py:105
+msgid "Repair job"
+msgstr "Remonto darbas"
+
+#: .\carservice\models.py:106
+msgid "Repair jobs"
+msgstr "Remonto darbai"

@@ -1,0 +1,17 @@
+{% extends 'carservice/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<section>
+    <br>
+    <ul class="list-group">
+        <li class="list-group-item">{% trans 'Total Cars Registered' %}: {{ num_cars }}</li>
+        <li class="list-group-item">{% trans 'Total Orders Created' %}: {{ num_repair_orders }}</li>
+        <li class="list-group-item">{% trans 'Total Available Services' %}: {{ num_services }}</li>
+        <li class="list-group-item">{% trans 'Number of Your Visits' %}: {{ num_visits }}</li>
+
+
+    </ul>
+</section>
+
+{% endblock content %}

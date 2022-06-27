@@ -1,0 +1,40 @@
+{% extends 'carservice/base.html' %}
+{% load i18n static %}
+{% block content %}
+    <h1>{% trans 'Services list' %}</h1>
+    {% if services %}
+        <div class="pagination">
+            <span class="step-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page=1">{% trans 'first' %}</a>
+                    <a href="?page={{ page_obj.previous_page_number }}">{% trans 'previous' %}</a>
+                {% endif %}
+                <span class="current">{{ page_obj.number }} {% trans 'of ' %} {{ page_obj.paginator.num_pages }}</span>
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">{% trans 'next' %}</a>
+                    <a href="?page={{ page_obj.paginator.num_pages }}">{% trans 'last' %} </a>
+                {% endif %}
+            </span>
+        </div>
+        <div class="container">
+            <br/><br/>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <th scope="col">{% trans 'Name' %}</th>
+                    <th scope="col">{% trans 'Price' %}</th>
+                </thead>
+                {% for service in services %}
+                    <tbody>
+                        <tr>
+                            <td>{{ service.job_name }}</td>
+                            <td>{{ service.price }}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %}
+            </table>
+        </div>
+    {% else %}
+    <p>{% trans 'There are no service yet.' %}</p>
+    {% endif %}
+{% endblock content %}
+
